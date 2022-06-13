@@ -34,7 +34,7 @@
         des aliens. Son but est très simple: survivre et s’échapper de cette station
         délabrée par l’invasion alienne.
         RunAway est un jeu de plateformes dans lequel on incarne le chef du vaisseau.
-        Ce jeu sera jouable en solo ou en multijoueurs (2 joueurs max).
+        Ce jeu est jouable en solo ou en multijoueurs.
         10 Niveaux seront disponibles durant lesquels de nouvelles mécaniques seront
         découvertes ainsi que de nouveaux figurants/personnages. Comme dit précédemment,
         le but du jeu est de s’échapper de la station spatiale, pour se faire diverses
@@ -42,8 +42,8 @@
     </p>
   </div>
   <div class="WIKITOUCHE"><h2>Téléchargement</h2>
-  <div class="WIKICAP"><button onclick=""><p>Tutoriel</p></button></div>
-  <div class="WIKICAP"><button onclick="RunAway"><p>RunAway</p></button></div></div>
+  <div class="WIKICAP"><button onclick="setup.exe"><p>Tutoriel</p></button></div>
+  <div class="WIKICAP"><button onclick=""><p>RunAway</p></button></div></div>
     <!-- Informations -->
         <h1>Wiki</h1>
     <div id = "WIKI">
@@ -67,12 +67,13 @@
         </table>
       <div class="WIKICAP">
         <ul>
-          <li>Chargeur Arme: 10 munitions</li>
+          <li>Chargeur Arme: 20 munitions</li>
           <li>Temps de Recharge: 1.5 secondes</li>
           <li>Ruée cooldown: 1 seconde</li>
-          <li>Obtention ruée: level 1</li>
-          <li>Obtention WallRun: level 3</li>
-          <li>Le wallrun fonctionne quand vous courez proche d'un mur</li>
+          <li>Le wallrun fonctionne quand vous courez proche d'un mur valide</li>
+          <li>Le grappin ne marche que sur certaines distances et que certain mur ou obstacle </li>
+          <li>Le grappin possède un temps de rechargement de 1.5 secondes</li>
+          <li>Le retour dans le temps est possible jusqu’à trois secondes en arrière.</li>
         </ul>
       </div>
       </div>
@@ -180,18 +181,20 @@
         <li><a href="https://www.sublimetext.com/">Sublime Text</a></li>
         <li><a href="https://www.adobe.com/fr/products/photoshop.html">PhotoShop</a></li>
         <li><a href="https://jrsoftware.org/isinfo.php">Inno Setup</a></li>
+        <li><a href="https://www.gimp.org/downloads/">Gimp</a></li>
       </ul>
       </div>
     </div>
     <a href = ""><h3>Dowload du Rapport</h3></a>
     <h3>Problèmes/Solutions</h3>
       <ul>
-        <li>WallRun Infini -> Limiter la durée de course, reset la durée quand wallrun activé</li>
         <li>Site Web -> Apprentissage l'html</li>
-        <li>Impossible d'appliquer les animations sur le joueur -> En cours de résolution</li>
         <li>Placement difficile des murs dans le level design -> Pro build</li>
-        <li>Impossible de repousser les ennemis à l'aide du canon -> En cours de résolution</li>
-        <li>Mise à l'échelle de l'interface pour chaque utilisateurs -> En cours de résolution</li>
+        <li>Grappin infini -> Grappin ne marche que lorsqu'on reste appuyé</li>
+        <li>Grappin no clip -> réduction de la vitesse et changement du mode de la force</li>
+        <li>Ennemi trop faible -> augmentation dégats, réduction dispersion balle</li>
+        <li>Ennemi trop fort -> ajout d'une zone de guérison</li>
+        <li>Complexité à comprendre les compétence -> rajout de dialogues et d'une zone de guérison</li>
       </ul>
     </div>
     <!-- Fin des informations -->
